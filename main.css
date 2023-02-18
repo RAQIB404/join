@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.section1 {
+    width: 100vw;
+    height: 50vh;
+    padding: 100px 380px 0px 170px;
+}
+
+.join {
+    color: #2e9794;
+    margin-bottom: 30px;
+}
+
+.day {
+    color: #c8de5b;
+    margin-bottom: 20px;
+}
+
+.section1 p {
+    color: rgb(149, 148, 148);
+    line-height: 30px;
+}
+
+.section2 {
+    display: flex;
+}
+
+.monthly {
+    background-color: #2ab3b1;
+    height: 50vh;
+    width: 50%;
+    padding: 50px 180px 0px 170px;
+}
+
+.why {
+    background-color: #4abebd;
+    height: 50vh;
+    width: 50%;
+    padding: 50px 180px 0px 110px;
+}
+
+.monthly h3 {
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.dollar {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.dol {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.per {
+    color: hsl(201, 16%, 83%);
+    font-weight: 400;
+}
+
+.full {
+    color: hsl(201, 16%, 83%);
+    padding-bottom: 25px;
+}
+
+.monthly button {
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+   width: 240px;
+   height: 50px;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 16px;
+   cursor: pointer;
+   box-shadow: 2px 3px #26a6ad;
+}
+
+.monthly button:hover{
+    background-color: #93ae09;
+}
+
+.why h3{
+    color: #fff;
+    font-size: 22px;
+    padding-bottom: 15px;
+} 
+
+.long{
+    color: hsl(201, 16%, 83%);
+    line-height: 20px;
+}
